@@ -1,0 +1,106 @@
+{
+  "quizTitle": "Quiz Amara",
+  "quizSynopsis": "Momento fornecedor: Sungrow",
+  "questions": [
+    {
+      "questionType": "text",
+      "answers": [
+        "Linha HX",
+        "Linha RS-L",
+        "Linha CX-P2"
+      ],
+      "question": "Qual o principal linha de produtos oferecido pela Sungrow do Brasil para o público residencial?",
+      "correctAnswer": "2"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "Osasco - São Paulo",
+        "Belo Horizonte - Minas Gerais",
+        "Campinas - São Paulo"
+      ],
+      "question": "Em qual cidade brasileira a Sungrow possui um centro de serviço?",
+      "correctAnswer": "1"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "Canal do YouTube @sungrow",
+        "Sungrow Academy",
+        "Perfil do Instagram @sungrow.brasil"
+      ],
+      "question": "Qual o nome da principal plataforma de treinamento e pós-venda da Sungrow?",
+      "correctAnswer": "2"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "SG75CX-P2-LV",
+        "SG250HX-20",
+        "Micro inversor S2000-S"
+      ],
+      "question": "Qual é o lançamento da Sungrow para mercado residencial?",
+      "correctAnswer": "3"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "iSolarCloud",
+        "iSungrowCloud",
+        "SolarScanner"
+      ],
+      "question": "Em qual plataforma é possível monitorar os inversores da Sungrow Brasil?",
+      "correctAnswer": "1"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "2002",
+        "2017",
+        "1997"
+      ],
+      "question": "Em que ano a Sungrow foi fundada?",
+      "correctAnswer": "3"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "Xangai, China",
+        "Hefei, China",
+        "Shenzhen, China"
+      ],
+      "question": "Onde é a sede global da Sungrow?",
+      "correctAnswer": "2"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "125",
+        "40",
+        "150"
+      ],
+      "question": "Em quantos países os produtos Sungrow abastecem ao redor do mundo?",
+      "correctAnswer": "3"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "515GW",
+        "300GW",
+        "450GW"
+      ],
+      "question": "Quantos GW a Sungrow exportou em conversores de potência até o final de 2023?",
+      "correctAnswer": "1"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "iPhone 15 Pro MAX",
+        "Moto elétrica",
+        "Drone DJI"
+      ],
+      "question": "Qual foi o último prêmio da campanha Corrida Sungrow?",
+      "correctAnswer": "2"
+    }
+  ]
+}

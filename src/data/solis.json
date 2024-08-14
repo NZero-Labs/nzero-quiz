@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "questionType": "text",
+      "answers": [
+        "Painéis Fotovoltaicos",
+        "Inversores Fotovoltaicos",
+        "Automóveis elétricos"
+      ],
+      "question": "Qual é o principal produto fabricado pela Solis Inverters?",
+      "correctAnswer": "2"
+    },
+    {
+      "answers": [
+        "Inversores de frequência",
+        "Inversores de tração",
+        "Inversores FV on-grid, off-grid, e híbridos. Monofásicos e trifásicos"
+      ],
+      "questionType": "text",
+      "question": "Quais tipos de inversores FV a Solis produz?",
+      "correctAnswer": "3"
+    },
+    {
+      "questionType": "text",
+      "answers": [
+        "1995",
+        "2005",
+        "2020"
+      ],
+      "question": "Em qual ano a Solis foi fundada?",
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Qual dos pontos turísticos possui inversores Solis instalados?",
+      "questionType": "text",
+      "answers": [
+        "Torre Eiffel na França",
+        "Cristo Redentor, no Brasil",
+        "Estátua da Liberdade, nos EUA"
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Qual a duração da cobertura da garantia dos inversores Solis?",
+      "questionType": "text",
+      "answers": [
+        "1 ano",
+        "5 anos",
+        "10 anos"
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Qual a duração da cobertura da garantia dos inversores Solis?",
+      "questionType": "text",
+      "answers": [
+        "2 países",
+        "5 países",
+        "35 países"
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "A Solis oferece suporte técnico em quais dias da semana?",
+      "questionType": "text",
+      "answers": [
+        "7 dias, de domingo a domingo",
+        "5 dias, segunda a sexta",
+        "1 dia, apenas as segundas"
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Quais os benefícios que o SolisCloud entrega ao cliente final e ao integrador?",
+      "questionType": "text",
+      "answers": [
+        "Visualizar a economia gerada pelo sistema FV e dados em tempo real",
+        "Permite a operação remota do inversor e Auxilia no Pós Vendas",
+        "Todas as alternativas"
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Qual o inversor de maior potência fabricado pela Solis?",
+      "questionType": "text",
+      "answers": [
+        "255kW",
+        "350kW",
+        "375kW"
+      ],
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Quando foi instalado o primeiro inversor Solis no Brasil?",
+      "questionType": "text",
+      "answers": [
+        "2005",
+        "2012",
+        "2022"
+      ],
+      "correctAnswer": "2"
+    }
+  ],
+  "quizTitle": "Quiz Amara",
+  "quizSynopsis": "Momento fornecedor: Solis"
+}

@@ -1,0 +1,106 @@
+{
+  "quizTitle": "Quiz Amara",
+  "quizSynopsis": "Momento fornecedor: Solis",
+  "questions": [
+    {
+      "answers": [
+        "Shangai, China",
+        "Hefei, China",
+        "São Paulo, Brasil"
+      ],
+      "questionType": "text",
+      "question": "Onde fica localizada a sede da empresa?",
+      "correctAnswer": "2"
+    },
+    {
+      "answers": [
+        "Sim. A empresa foi fundada na China",
+        "Não. A empresa foi fundada no Brasil.",
+        "Sim, A empresa foi fundada no Taiwan."
+      ],
+      "questionType": "text",
+      "question": "A DAH é considerada uma empresa multinacional? ",
+      "correctAnswer": "1"
+    },
+    {
+      "answers": [
+        "2022",
+        "2010",
+        "2017"
+      ],
+      "questionType": "text",
+      "question": "Desde quando a DAH Solar está atuando fortemente no Brasil?",
+      "correctAnswer": "3"
+    },
+    {
+      "answers": [
+        "Sim. Fica localizado em São Paulo",
+        "Não. Todos os escritórios são internacionais.",
+        "Sim. Fica localizado no Rio de Janeiro."
+      ],
+      "questionType": "text",
+      "question": "A DAH Solar possui escritório no Brasil? ",
+      "correctAnswer": "1"
+    },
+    {
+      "answers": [
+        "Não. Nenhuma empresa chinesa de painéis são.",
+        "Não. A DAH não utiliza sua própria matéria-prima.",
+        "Sim. Isso garante controle de qualidade de ponta a ponta. "
+      ],
+      "questionType": "text",
+      "question": "A DAH é uma empresa verticalizada?",
+      "correctAnswer": "3"
+    },
+    {
+      "answers": [
+        "03",
+        "05",
+        "01"
+      ],
+      "questionType": "text",
+      "question": "Quantas fábricas a DAH Solar Possui?",
+      "correctAnswer": "2"
+    },
+    {
+      "answers": [
+        "> 5.000.000 (MAIOR QUE 5 MILHOES)",
+        "< 5.000.000 (MENOR QUE 5 MILHOES)",
+        "> 10.000.000 (MAIOR QUE 10 MILHOES)"
+      ],
+      "questionType": "text",
+      "question": "Aproximadamente quantos módulos a DAH já comercializou no Brasil?",
+      "correctAnswer": "1"
+    },
+    {
+      "answers": [
+        "Não. A DAH Solar não é considerada Tier 1.",
+        "A DAH Solar está em processo de obtenção da classificação Tier 1, mas ainda não foi confirmada.",
+        "Sim. A DAH Solar é considerada Tier 1."
+      ],
+      "questionType": "text",
+      "question": "A DAH Solar é Tier 1? Selo que tange a bancabilidade da empresa",
+      "correctAnswer": "3"
+    },
+    {
+      "answers": [
+        "Não. Outro fornecedor patenteou.",
+        "Sim. O modulo full-screen é uma inovação da DAH Solar.",
+        "Não há diferença entre módulos. São todos iguais."
+      ],
+      "questionType": "text",
+      "question": "O módulo FullScreen é patenteado da DAH Solar?",
+      "correctAnswer": "2"
+    },
+    {
+      "answers": [
+        "Não, a DAH não trabalha com módulos N-Type",
+        "Não. A DAH possui apenas módulos P-Type.",
+        "Sim. Pois entendem que essa tecnologia permanecerá e irá conduzir o mercado de módulos fotovoltaicos nos próximos anos."
+      ],
+      "questionType": "text",
+      "question": "A DAH Solar possui módulos N-TYPE disponível? ",
+      "correctAnswer": "3"
+    }
+  ]
+}
