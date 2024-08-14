@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Explanation from './Explanation';
 
 const renderMessageForCorrectAnswer = (question) => {
@@ -14,6 +14,7 @@ const renderMessageForIncorrectAnswer = (question) => {
 function InstantFeedback({
   showInstantFeedback, incorrectAnswer, correctAnswer, question, onQuestionSubmit, userAnswer,
 }) {
+  const alertRef = useRef(null);
   useEffect(() => {
     if (onQuestionSubmit && (correctAnswer || incorrectAnswer)) {
       onQuestionSubmit({ question, userAnswer, isCorrect: correctAnswer });
@@ -23,10 +24,10 @@ function InstantFeedback({
   return (
     <>
       {incorrectAnswer && showInstantFeedback
-            && <div className="alert incorrect">{renderMessageForIncorrectAnswer(question)}</div>}
+            && <div ref={alertRef} className="alert incorrect">{renderMessageForIncorrectAnswer(question)}</div>}
       {correctAnswer && showInstantFeedback
             && (
-            <div className="alert correct">
+            <div ref={alertRef} className="alert correct">
               {renderMessageForCorrectAnswer(question)}
               <Explanation question={question} isResultPage={false} />
             </div>

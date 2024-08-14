@@ -23,6 +23,7 @@ export const checkAnswer = (index, correctAnswer, answerSelectionType, answers, 
   setUserInput,
   setUserAttempt,
 }) => {
+
   const indexStr = `${index}`;
   const disabledAll = Object.keys(answers).map(() => ({ disabled: true }));
   const userInputCopy = [...userInput];
@@ -41,6 +42,7 @@ export const checkAnswer = (index, correctAnswer, answerSelectionType, answers, 
         ...disabledAll,
         [index - 1]: {
           className: (indexStr === correctAnswer) ? 'correct' : 'incorrect',
+          disabled: false,
         },
       }));
 
@@ -60,6 +62,7 @@ export const checkAnswer = (index, correctAnswer, answerSelectionType, answers, 
             ...prevState,
             [index - 1]: {
               disabled: !prevState[index - 1],
+              className: (indexStr === correctAnswer) ? 'correct' : 'incorrect',
             },
           }
         ));
@@ -70,7 +73,7 @@ export const checkAnswer = (index, correctAnswer, answerSelectionType, answers, 
             ...prevState,
             ...disabledAll,
             [index - 1]: {
-              className: (indexStr === correctAnswer) ? 'correct' : 'incorrect',
+              className: (indexStr === correctAnswer) ? 'correct' : 'incorrect'
             },
           }
         ));
@@ -124,7 +127,7 @@ export const checkAnswer = (index, correctAnswer, answerSelectionType, answers, 
         if (correctAnswer.includes(i + 1)) {
           setButtons((prevState) => ({
             ...prevState,
-            [i]: {},
+            [i]: {className: (correctAnswer.includes(index)) ? 'correct' : 'incorrect'},
           }));
         }
       }
@@ -209,7 +212,7 @@ export const selectAnswer = (index, correctAnswer, answerSelectionType, answers,
 
     if (userInputCopy[currentQuestionIndex].length === correctAnswer.length) {
       let exactMatch = true;
-      // eslint-disable-next-line no-restricted-syntax
+       
       for (const input of userInput[currentQuestionIndex]) {
         if (!correctAnswer.includes(input)) {
           exactMatch = false;

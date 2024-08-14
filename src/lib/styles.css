@@ -76,15 +76,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font: 700 51px "Dialog", sans-serif;
-  color: #00953B;
+  font: 700 40px "Dialog", sans-serif;
 }
 .button-wrapper {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .button-wrapper[data-disabled="true"] {
-  color: rgba(16, 16, 16, 0.3);
+  color: #E80000;
   cursor: not-allowed;
 }
 .answer-label {
@@ -95,8 +95,30 @@
   margin-right: 1rem;
 }
 .button-wrapper[data-disabled="true"] .answer-label {
-  color:rgba(16, 16, 16, 0.3);
+  color: #E80000;
   cursor: not-allowed;
+}
+.button-wrapper .answer {
+  position: absolute;
+  right: -28px;
+  width: 60px;
+  height: 60px;
+  display:none;
+  text-align: center;
+  align-items: center;
+}
+.button-wrapper .correctIcon {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #00953B 0%, #C1D116 100%);
+}
+
+.button-wrapper .wrongIcon {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: #E80000;
 }
 .react-quiz-container .btn:hover {
   background: linear-gradient(90deg, #00953B -5.71%, #C1D116 100.29%);
@@ -111,21 +133,21 @@
   cursor: pointer;
 }
 .react-quiz-container .btn:disabled  {
-  color: rgba(16, 16, 16, 0.3);
-  border-color: rgba(16, 16, 16, 0.3);
+  color: #000;
+  border-color: #E80000;
   background: transparent;
   cursor: not-allowed;
 }
 .react-quiz-container .btn:disabled:hover {
-  border: 3px solid  rgba(16, 16, 16, 0.3);
+  border: 3px solid  #E80000;
   background: transparent;
   cursor: not-allowed;
-  color: rgba(16, 16, 16, 0.3);
+  color: #000;
 }
-.react-quiz-container .questionWrapper .btn.correct {
+/* .react-quiz-container .questionWrapper .btn.correct {
   background: green;
   color: white;
-}
+} */
 .nextQuestionBtn {
   font: 700 32px "Dialog", sans-serif;
   border: none;
@@ -160,7 +182,7 @@
 .questionModal {
   position: relative;
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -173,6 +195,11 @@
 
 .react-quiz-container .correct {
   background: linear-gradient(90deg, #00953B -5.71%, #C1D116 100.29%);
+  color: #fff;
+  border: none;
+}
+.correct .span-question,.btn:hover:not(:disabled):not(.incorrect) .span-question {
+  color: #fff;
 }
 
 .react-quiz-container .incorrect {

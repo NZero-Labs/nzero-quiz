@@ -1,19 +1,20 @@
-import React, {
-  useState, useEffect, useCallback, Fragment,
+import {
+  useState, useEffect, useCallback
 } from 'react';
 import { nanoid } from 'nanoid';
 import ProgressBar from './core-components/ProgressBar';
-import QuizResultFilter from './core-components/QuizResultFilter';
 import { checkAnswer, selectAnswer, rawMarkup } from './core-components/helpers';
 import InstantFeedback from './core-components/InstantFeedback';
 import Explanation from './core-components/Explanation';
 import Arrow from '../assets/arrow';
 import { Link } from 'react-router-dom';
+import AnswerCorrect from '../assets/answerCorrect';
+import AnswerWrong from '../assets/answerWrong';
 
 function Core({
   questions, appLocale, showDefaultResult, onComplete, customResultPage,
   showInstantFeedback, continueTillCorrect, revealAnswerOnSubmit, allowNavigation,
-  onQuestionSubmit, timer, allowPauseTimer, enableProgressBar, progressBarColor, setIsEnd
+  onQuestionSubmit, timer, enableProgressBar, progressBarColor, setIsEnd
 }) {
   const [incorrectAnswer, setIncorrectAnswer] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -265,7 +266,7 @@ function Core({
       setIncorrect,
       setUserInput,
     });
-
+    
     const checkSelectedAnswer = (index) => {
       if (userInput[questionIndex - 1] === undefined) {
         return false;
@@ -276,12 +277,10 @@ function Core({
       return Array.isArray(userInput[questionIndex - 1]) && userInput[questionIndex - 1].includes(index);
     };
 
-    // Default single to avoid code breaking due to automatic version upgrade
     answerSelectionType = answerSelectionType || 'single';
-
     return answers.map((answer, index) => (
       <div className='button-wrapper' key={nanoid()} data-disabled={`${answerButtons[index]?.disabled || false}`}>
-        <p className='answer-label'>{index + 1 === 1 ? "• A) " : index + 1 === 2 ? "• B) " : "• C) "}</p>
+       <div className={`answer ${Object.keys(answerButtons).length === 0 ? "" : answerButtons[index]?.className === "correct" ? 'correctIcon': answerButtons[index]?.className === "incorrect" || answerButtons[index]?.disabled ? 'wrongIcon': ""}`}>{isCorrectCheck(index + 1, correctAnswer) && showInstantFeedback? <AnswerCorrect /> : <AnswerWrong />}</div>
         {(answerButtons[index] !== undefined)
           ? (
               <button
@@ -294,17 +293,18 @@ function Core({
               }`}
               onClick={() => (revealAnswerOnSubmit ? onSelectAnswer(index) : onClickAnswer(index))}
             >
+              <span className="span-question">{index + 1 === 1 ? "a) " : index + 1 === 2 ? "b) " : "c) "}</span>
               {questionType === 'text' && <span>{answer}</span>}
               {questionType === 'photo' && <img src={answer} alt="answer" />}
-            </button>
-            
+            </button>  
           )
           : (
               <button
               type="button"
               onClick={() => (revealAnswerOnSubmit ? onSelectAnswer(index) : onClickAnswer(index))}
               className={`answerBtn btn ${(allowNavigation && checkSelectedAnswer(index + 1)) ? 'selected' : null}`}
-            > 
+            >
+              <span className="span-question">{index + 1 === 1 ? "a) " : index + 1 === 2 ? "b) " : "c) "}</span>
               {questionType === 'text' && answer}
               {questionType === 'photo' && <img src={answer} alt="answer" />}
             </button>
@@ -401,7 +401,7 @@ function Core({
         </div>
       )}
       {timer && timeRemaining === 0 && isRunning && handleTimeUp()}
-
+      
       {!endQuiz && (
         <div className="questionWrapperBody">
           {isRunning ? (

@@ -23,11 +23,9 @@ function Quiz({
 }) {
   
   const { quizId } = useParams()
-  console.log("🚀 ~ quizId:", quizId)
   const [isEnd, setIsEnd] = useState(false)
   const selectedQuiz = availableQuizzes.find(q => q.name === quizId)
   const quiz = selectedQuiz.quiz
-  console.log("🚀 ~ quiz:", quiz)
 
   const [start, setStart] = useState(false);
   const [questions, setQuestions] = useState(quiz.questions);
