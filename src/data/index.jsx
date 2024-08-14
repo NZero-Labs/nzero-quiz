@@ -17,6 +17,7 @@ export const availableQuizzes = [
  {
   name: 'ja',
   logo: jaLogo,
+  quiz: dahQuiz,
  },
  {
   name: 'dah',

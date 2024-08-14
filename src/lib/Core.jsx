@@ -280,10 +280,11 @@ function Core({
     answerSelectionType = answerSelectionType || 'single';
 
     return answers.map((answer, index) => (
-      <Fragment key={nanoid()}>
+      <div className='button-wrapper' key={nanoid()} data-disabled={`${answerButtons[index]?.disabled || false}`}>
+        <p className='answer-label'>{index + 1 === 1 ? "• A) " : index + 1 === 2 ? "• B) " : "• C) "}</p>
         {(answerButtons[index] !== undefined)
           ? (
-            <button
+              <button
               type="button"
               disabled={answerButtons[index].disabled || false}
               className={`${answerButtons[index].className} answerBtn btn ${
@@ -296,18 +297,20 @@ function Core({
               {questionType === 'text' && <span>{answer}</span>}
               {questionType === 'photo' && <img src={answer} alt="answer" />}
             </button>
+            
           )
           : (
-            <button
+              <button
               type="button"
               onClick={() => (revealAnswerOnSubmit ? onSelectAnswer(index) : onClickAnswer(index))}
               className={`answerBtn btn ${(allowNavigation && checkSelectedAnswer(index + 1)) ? 'selected' : null}`}
-            > {index + 1 === 1 ? "• A) " : index + 1 === 2 ? "• B) " : "• C) "}
+            > 
               {questionType === 'text' && answer}
               {questionType === 'photo' && <img src={answer} alt="answer" />}
             </button>
+            
           )}
-      </Fragment>
+      </div>
     ));
   };
 
@@ -406,7 +409,7 @@ function Core({
               <div className='question'>
                 <h3
                   dangerouslySetInnerHTML={rawMarkup(
-                    `${currentQuestionIndex + 1} - ${
+                    `<span class="span-question">• ${currentQuestionIndex + 1}:&nbsp</span> ${
                       activeQuestion && activeQuestion.question
                     }`,
                   )}

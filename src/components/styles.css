@@ -25,7 +25,7 @@
  height: 80px;
  border-radius: 20px;
  background: linear-gradient(0deg, #C1D116, #C1D116);
- font-family: "Lato", sans-serif;
+ font-family: "Dialog", sans-serif;
  font-weight: 700;
  font-size: 65px;
  color: #fff;
@@ -47,7 +47,7 @@
 .start-text {
  max-width: 1218px;
  text-align: center;
- font: 400 40px "Lato", sans-serif;
+ font: 400 40px "Dialog", sans-serif;
  color: #fff;
 }
 
@@ -66,7 +66,7 @@ align-items: center;
  animation: slide-to-top 2s ease 0s 1 normal forwards;
 }
 .ready-text {
- font: 400 40px "Lato", sans-serif;
+ font: 400 40px "Dialog", sans-serif;
  letter-spacing: 0.01em;
  text-align: center;
  text-decoration: underline;
@@ -88,7 +88,7 @@ align-items: center;
 }
 .select-quiz {
  text-align: center;
- font: 400 40px "Lato", sans-serif;
+ font: 400 40px "Dialog", sans-serif;
  color: #fff;
  display: flex;
  flex-direction: column;
@@ -150,7 +150,7 @@ align-items: center;
 	flex-direction: column;
 	align-items: center;
 	color: #fff;
-	font: bold 40px 'Lato', sans-serif;
+	font: bold 40px 'Dialog', sans-serif;
 }
 .container-partner p {
 	margin: 0;
