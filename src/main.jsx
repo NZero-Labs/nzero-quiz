@@ -1,4 +1,3 @@
-// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -7,7 +6,7 @@ import { QuizProvider } from './context/index.jsx'
 
 createRoot(document.getElementById('root')).render(
   <QuizProvider>
-    <BrowserRouter>
+    <BrowserRouter basename='/nzero-quiz'>
     <App />
   </BrowserRouter>
   </QuizProvider>
