@@ -4,7 +4,7 @@
  "questions": [
    {
      "questionType": "text",
-     "question": "1.\tQual a capacidade de produção anual da JA Solar?",
+     "question": "Qual a capacidade de produção anual da JA Solar?",
      "answers": [
        "1GW/ano",
        "20GW/ano",

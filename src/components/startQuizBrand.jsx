@@ -20,11 +20,11 @@ export default function StartQuizBrand() {
    <div className={`${value} bar`}></div>
    <div className={`${value} bar`}></div>
 </div>
-   <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />
+   {selectedQuiz.name !== 'amara' && <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />}
        <div>
           
     <div className="brand">
-     <img src={selectedQuiz.logo} alt="Logo da marca" />
+     <img src={selectedQuiz.name === 'amara' ? quizLogo : selectedQuiz.logo} alt="Logo da marca" />
     </div>
 
    </div>

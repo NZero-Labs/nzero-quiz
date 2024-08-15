@@ -181,9 +181,12 @@ align-items: center;
 }
 
 .brand {
+	width: 1056px;
 	object-fit: contain;
 }
-
+.brand img {
+	width: 100%
+}
 .bar {
 	position: absolute;
 	top: 0;

@@ -43,7 +43,7 @@
 }
 .questionWrapperBody h3 {
   text-align: center;
-  font: bold 51px 'Dialog', sans-serif;
+  font: bold 45px 'Dialog', sans-serif;
   font-style: italic;
   margin: 0;
   height: 111px;
@@ -75,7 +75,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font: 700 40px "Dialog", sans-serif;
+  font: 700 35px "Dialog", sans-serif;
 }
 .button-wrapper {
   display: flex;
