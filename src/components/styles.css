@@ -86,6 +86,7 @@ align-items: center;
 .arrow-container-green:hover {
  background: linear-gradient(90deg, #00953B -5.71%, #C1D116 100.29%);
 }
+
 .select-quiz {
  text-align: center;
  font: 400 40px "Dialog", sans-serif;
@@ -170,11 +171,12 @@ align-items: center;
 
 .arrow-container:hover {
 	background: linear-gradient(90deg, #00953B -5.71%, #C1D116 100.29%);
-	fill: #fff;
+}
+.arrow-container svg path {
+	fill: #C1D116;
 }
 
-.arrow-container svg path:hover {
-	background: linear-gradient(90deg, #00953B -5.71%, #C1D116 100.29%);
+.arrow-container:hover svg path {
 	fill: #fff;
 }
 

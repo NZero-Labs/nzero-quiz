@@ -1,0 +1,106 @@
+{
+ "quizTitle": "QUIZ AMARA",
+ "quizSynopsis": "Momento Fornecedor - JA ",
+ "questions": [
+   {
+     "questionType": "text",
+     "question": "1.\tQual a capacidade de produção anual da JA Solar?",
+     "answers": [
+       "1GW/ano",
+       "20GW/ano",
+       "100GW/ano"
+     ],
+     "correctAnswer": "3"
+   },
+   {
+     "answers": [
+       "Junho de 1990",
+       "Julho de 2015",
+       "Maio de 2005"
+     ],
+     "questionType": "text",
+     "question": "Quando a JA Solar foi fundada? ",
+     "correctAnswer": "3"
+   },
+   {
+     "question": "Quantas fábricas globais a JA Solar possui?",
+     "questionType": "text",
+     "answers": [
+       "14 fábricas",
+       "30 fábricas",
+       "8 fábricas"
+     ],
+     "correctAnswer": "1"
+   },
+   {
+     "question": "Qual o total global de embarques acumulados da JA Solar?",
+     "questionType": "text",
+     "answers": [
+       "+201GW",
+       "+50GW",
+       "+100GW"
+     ],
+     "correctAnswer": "1"
+   },
+   {
+     "question": "Qual o total de embarques acumulados para o Brasil?",
+     "questionType": "text",
+     "answers": [
+       "+2GW",
+       "+7GW",
+       "+20GW"
+     ],
+     "correctAnswer": "2"
+   },
+   {
+     "question": "Onde fica o escritório da JA Solar no Brasil?",
+     "answers": [
+       "Jundiaí/SP",
+       "Campinas/SP",
+       "Belo Horizonte/MG"
+     ],
+     "correctAnswer": "1",
+     "questionType": "text"
+   },
+   {
+     "question": "Quais etapas do processo produtivo de módulos a JA Solar produz em suas fábricas?",
+     "questionType": "text",
+     "answers": [
+       "wafers, células e módulos",
+       "lingots, wafers e módulos",
+       "lingots, wafers, células e módulos"
+     ],
+     "correctAnswer": "3"
+   },
+   {
+     "question": "Desde quando a JA Solar atua no Brasil?",
+     "questionType": "text",
+     "answers": [
+       "2017 ",
+       "2015",
+       "2000"
+     ],
+     "correctAnswer": "2"
+   },
+   {
+     "question": "Quais as principais certificações que a JA Solar possui?",
+     "answers": [
+       "RETC, PVEL, PVTech, Tier1",
+       "RETC, PVEL, PVTech",
+       "PVEL, PVTech, Tier1"
+     ],
+     "questionType": "text",
+     "correctAnswer": "1"
+   },
+   {
+     "question": "Por que é melhor optar por fabricantes de módulos de alta bancabilidade? ",
+     "answers": [
+       "Devido a segurança do investimento, garantia de que fabricante estará no país para prestar suporte ao cliente",
+       "Possuem mais presença global",
+       "Preços mais acessíveis"
+     ],
+     "questionType": "text",
+     "correctAnswer": "1"
+   }
+ ]
+}

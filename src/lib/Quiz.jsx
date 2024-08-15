@@ -220,7 +220,7 @@ function Quiz({
     <div className={isEnd ? 'quiz-container' :'react-quiz-container' }>
       <div className="quiz-brand-container">
         <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />
-        <img className="logo-quiz-time" src={selectedQuiz.logo} alt="Logo Amara Quiz Time" />
+        {selectedQuiz.name !== "amara" && <img className="logo-quiz-time" src={selectedQuiz.logo} alt="Logo Amara Quiz Time" />}
       </div>
       
       {!start && (

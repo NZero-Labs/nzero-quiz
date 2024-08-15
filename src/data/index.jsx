@@ -7,6 +7,7 @@ import solisLogo from '../assets/SolisLogo.png'
 import dahQuiz from './dah.json'
 import solisQuiz from './solis.json'
 import sungrowQuiz from './sungrow.json'
+import jaQuiz from './ja.json'
 
 export const availableQuizzes = [
  {
@@ -17,7 +18,7 @@ export const availableQuizzes = [
  {
   name: 'ja',
   logo: jaLogo,
-  quiz: dahQuiz,
+  quiz: jaQuiz,
  },
  {
   name: 'dah',

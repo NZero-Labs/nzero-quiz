@@ -21,7 +21,8 @@ export default function StartQuizBrand() {
    <div className={`${value} bar`}></div>
 </div>
    <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />
-   <div>
+       <div>
+          
     <div className="brand">
      <img src={selectedQuiz.logo} alt="Logo da marca" />
     </div>
@@ -33,7 +34,7 @@ export default function StartQuizBrand() {
      <icon>{selectedQuiz.name === 'amara' ? <Solar /> : <Partner />}</icon>
     </div>
     <Link to={`/brand/${selectedQuiz.name}`} onClick={() => setValue({ quiz: selectedQuiz })} className="arrow-container">
-     <Arrow fill={"#C1D116"} />
+     <Arrow fill={"#fff"} />
     </Link>
    </div>
 
