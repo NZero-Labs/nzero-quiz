@@ -8,12 +8,13 @@ import dahQuiz from './dah.json'
 import solisQuiz from './solis.json'
 import sungrowQuiz from './sungrow.json'
 import jaQuiz from './ja.json'
+import amara from './amara.json'
 
 export const availableQuizzes = [
  {
   name: 'amara',
   logo: amaraLogo,
-  quiz: dahQuiz,
+  quiz: amara,
  },
  {
   name: 'ja',

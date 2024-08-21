@@ -1,0 +1,156 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "10 países",
+        "18 países",
+        "6 países"
+      ],
+      "question": "Em quantos países a Amara NZero está presente atualmente?",
+      "correctAnswer": "2",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "1957",
+        "1969",
+        "1992"
+      ],
+      "question": "Em que ano a Amara NZero foi fundada?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Salvador, Bahia",
+        "Barueri, São Paulo",
+        "Belém, Pará"
+      ],
+      "question": "Onde fica sediada a Amara NZero no Brasil?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "São Paulo e Paraíba",
+        "Espírito Santo e Rio Grande do Norte",
+        "São Paulo e Recife"
+      ],
+      "question": "Além da sede no Brasil a Amara tem outros 2 escritórios comerciais, em quais estados são?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "+30 anos",
+        "+45 anos",
+        "+65 anos"
+      ],
+      "question": "Quantos anos de mercado a Amara NZero possui?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Descarbonização, eletrificação e eficiência energética & digitalização",
+        "Descarbonização, eletrificação e digitalização energética.",
+        "Eletrificação, eficiência energética e descarbonização"
+      ],
+      "question": "Quais são os principais eixos de atuação da Amara NZero para a Transição Energética?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Cajamar, SP e Salvador, BA",
+        "Barueri, SP e Recife, PE",
+        "Feira de Santana, BA e Cajamar SP"
+      ],
+      "question": "Onde estão localizados os centros de distribuição da Amara NZero Brasil?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Realizar reparos técnicos de equipamentos",
+        "Criar novos produtos para o mercado Fotovoltaico",
+        "Realizar manutenção de equipamentos que estão fora de garantia"
+      ],
+      "question": "Qual o objetivo do laboratório da Amara NZero Brasil, localizado na UFRB?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Amara Networking",
+        "Transition NZero ",
+        "Amara Transition"
+      ],
+      "question": "Como se chama o evento de networking criado pela Amara NZero Brasil?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Sim. Desde 2008",
+        "Sim. Desde 2010",
+        "Não. Mas está se preparando para fazer parte"
+      ],
+      "question": "A Amara NZero é signatária do Pacto Global da ONU?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Criatividade - Resiliência - Eficiência - Assertividade - Trabalho em equipe - Impacto – Franqueza",
+        "Confiabilidade - Respeito ao meio ambiente - Educação - Adaptabilidade - Trabalho em equipe – Imparcialidade – Fiabilidade",
+        "Criatividade - Respeito ao meio ambiente - Empatia - Agilidade - Trabalho em equipe - Integridade - Fiabilidade"
+      ],
+      "question": "O que significa CREATIF em relação aos valores da Amara NZero?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "G2.50",
+        "W3.80",
+        "G3.55"
+      ],
+      "question": "Em qual localização se encontra o estande da Amara NZero Brasil na Intersolar?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "298 mil m²",
+        "107 mil m²",
+        "421 mil m²"
+      ],
+      "question": "Aproximadamente quantos m² em armazéns logísticos a Amara NZero possui no Brasil?",
+      "correctAnswer": "1",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Calcular quanto dinheiro preciso para comprar um kit fotovoltaico",
+        "Calcular o retorno sobre investimento em até 25 anos",
+        "Simular valores de gastos no kit comprado"
+      ],
+      "question": "Qual o objetivo da ferramenta online “Simulador Financeiro” criada pela Amara NZero Brasil?",
+      "correctAnswer": "2",
+      "questionType": "text"
+    },
+    {
+      "answers": [
+        "Boa viagem, Recife",
+        "Barueri, São Paulo",
+        "Feira de Santana, Bahia"
+      ],
+      "question": "Onde fica localizado o laboratório da Amara NZero Brasil?",
+      "correctAnswer": "3",
+      "questionType": "text"
+    }
+  ],
+  "quizTitle": "Quiz Amara",
+  "quizSynopsis": "Momento Amara"
+}
