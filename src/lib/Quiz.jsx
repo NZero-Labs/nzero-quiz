@@ -3,7 +3,7 @@ import Core from './Core';
 import defaultLocale from './Locale';
 import quizLogo from '../assets/quizTimeAmara.png'
 import './styles.css';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { availableQuizzes } from '../data';
 
 function Quiz({
@@ -219,8 +219,15 @@ function Quiz({
   return (
     <div className={isEnd ? 'quiz-container' :'react-quiz-container' }>
       <div className="quiz-brand-container">
-        <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />
+        <div>
+          <img className="logo-quiz-time" src={quizLogo} alt="Logo Amara Quiz Time" />
         {selectedQuiz.name !== "amara" && <img className="logo-quiz-time" src={selectedQuiz.logo} alt="Logo Amara Quiz Time" />}
+        </div>
+        
+        <div className='links'>
+        <Link to="/">Inicio</Link>
+        <Link to="/select-quiz">Selecionar Quiz</Link>
+      </div>
       </div>
       
       {!start && (
@@ -244,6 +251,7 @@ function Quiz({
       )}
 
       {start && (
+        
         <Core
           setIsEnd={setIsEnd}
           questions={questions}

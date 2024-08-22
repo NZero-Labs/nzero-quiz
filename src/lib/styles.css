@@ -157,6 +157,7 @@
 }
 .quiz-brand-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -441,4 +442,24 @@
   .dropdown-options.open {
     max-height: 200px;  
   }
+}
+
+.react-quiz-container .quiz-brand-container .links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  position: fixed;
+  right: 3rem;
+}
+
+.react-quiz-container .quiz-brand-container .links a {
+  font: 700 20px "Dialog", sans-serif;
+  cursor: pointer;
+  color: #00953B;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.react-quiz-container .quiz-brand-container .links a:hover {
+  color: #C1D116;
 }

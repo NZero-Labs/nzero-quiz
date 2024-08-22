@@ -76,7 +76,7 @@
         "Criar novos produtos para o mercado Fotovoltaico",
         "Realizar manutenção de equipamentos que estão fora de garantia"
       ],
-      "question": "Qual o objetivo do laboratório da Amara NZero Brasil, localizado na UFRB?",
+      "question": "Qual o objetivo do laboratório de testes da Amara NZero Brasil?",
       "correctAnswer": "1",
       "questionType": "text"
     },
@@ -122,11 +122,11 @@
     },
     {
       "answers": [
-        "298 mil m²",
+        "250 mil m²",
         "107 mil m²",
         "421 mil m²"
       ],
-      "question": "Aproximadamente quantos m² em armazéns logísticos a Amara NZero possui no Brasil?",
+      "question": "Aproximadamente quantos m² em armazéns logístico a Amara NZero opera no Brasil?",
       "correctAnswer": "1",
       "questionType": "text"
     },
