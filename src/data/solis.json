@@ -22,11 +22,7 @@
     },
     {
       "questionType": "text",
-      "answers": [
-        "1995",
-        "2005",
-        "2020"
-      ],
+      "answers": ["1995", "2005", "2020"],
       "question": "Em qual ano a Solis foi fundada?",
       "correctAnswer": "2"
     },
@@ -43,21 +39,13 @@
     {
       "question": "Qual a duração da cobertura da garantia dos inversores Solis?",
       "questionType": "text",
-      "answers": [
-        "1 ano",
-        "5 anos",
-        "10 anos"
-      ],
+      "answers": ["1 ano", "5 anos", "10 anos"],
       "correctAnswer": "3"
     },
     {
-      "question": "Qual a duração da cobertura da garantia dos inversores Solis?",
+      "question": "Em quantos países a Solis tem atuação hoje?",
       "questionType": "text",
-      "answers": [
-        "2 países",
-        "5 países",
-        "35 países"
-      ],
+      "answers": ["2 países", "5 países", "+40 países"],
       "correctAnswer": "3"
     },
     {
@@ -83,21 +71,13 @@
     {
       "question": "Qual o inversor de maior potência fabricado pela Solis?",
       "questionType": "text",
-      "answers": [
-        "255kW",
-        "350kW",
-        "375kW"
-      ],
+      "answers": ["255kW", "350kW", "375kW"],
       "correctAnswer": "2"
     },
     {
       "question": "Quando foi instalado o primeiro inversor Solis no Brasil?",
       "questionType": "text",
-      "answers": [
-        "2005",
-        "2012",
-        "2022"
-      ],
+      "answers": ["2005", "2012", "2022"],
       "correctAnswer": "2"
     }
   ],
